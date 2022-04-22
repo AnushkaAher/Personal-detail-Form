@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Details</title>
+</head>
+<script>
+    function copy()
+    {
+        if(ch.checked==true)
+        {
+            document.getElementById('Permanent Address').value=   
+            document.getElementById('Residential Address').value;
+        }
+        else{
+            document.getElementById('Permanent Address').value='';  
+        }
+    }
+</script>
+
+<body>
+    <u><center><h1>Personal Details</h1></center></u>
+
+    Name:
+    <input type="text" name="Name" size="20"maxlength="30" placeholder="Enter your Full Name"><br><br>
+
+
+    Father Name:
+    <input type="text" name=" Father Name" size="20"maxlength="30" placeholder="  Father Name"><br><br>
+    Father Occupation:
+    <input type="text" name=" Father Occupation" size="20"maxlength="30" placeholder="  Father Occupation"><br><br>
+
+
+    Mother Name:
+    <input type="text" name="Mother Name" size="20"maxlength="30" placeholder=" Mother Name"><br><br>
+    Mother Occupation:
+    <input type="text" name="Mother Occupation" size="20"maxlength="30" placeholder=" Mother Occupation"><br><br>
+
+
+    <label for="Country">Country:</label>
+    <select  id="Country">
+        <option value="India">India</option>
+    </select>
+    <br><br>
+
+    Gender:
+    <input type="radio" name="Gender" size="15" maxlength="30" value="male">Male
+    <input type="radio" name="Gender" size="15" maxlength="30" value="Female">Female<br><br>
+
+
+    Residential Address:
+    <textarea cols="30 " rows="5" style="resize: none;" id="Residential Address"> </textarea><br><br>
+
+    
+  <h3>If your Resedential address is same as permanent address check the checkbox</h3>  <input type="checkbox" id="ch"  onclick="copy()" ><br><br>
+
+
+    Permanent Address:
+    <textarea cols="30 " rows="5" style="resize: none;" id="Permanent Address"> </textarea><br><br>
+
+    <label for="Religion">Religion:</label>
+    <select  id="Religion">
+        <option value="Hindu">Hindu</option>
+        <option value="Islam">Islam</option>
+        <option value="christianity">christianity</option>
+        <option value="Buddhism">Buddhism</option>
+        <option value="Other">Other</option>
+    </select>
+    <br><br>
+
+
+    Caste:
+    <input type="text" name="Caste" size="20"maxlength="30" placeholder="Caste"><br><br>
+
+
+    
+
+
+    <label for="Category">Category:</label>
+    <select  id="Category">
+        <option value="Open">Open</option>
+        <option value="OBC">OBC</option>
+        <option value="SC">SC</option>
+        <option value="ST">ST</option>
+        <option value="VJNT">VJNT</option>
+        <option value="Other">Other</option>
+    </select>
+    <br><br>
+    
+    Email:
+    <input type="text" name="Email" size="15"maxlength="30" placeholder="Email"><br><br>
+
+
+
+
+    
+
+
+    Contact Number:
+    <input type="text" name="Contact Number" size="30"maxlength="30" placeholder="Contact Number"><br><br>
+
+    Parent Contact Number:
+    <input type="text" name=" Parent Contact Number" size="30"maxlength="30" placeholder=" Parent Contact Number"><br><br>
+
+
+    Date of Birth:
+    <input type="date" name="Date of Birth" size="15"maxlength="30" ><br><br>
+
+    Hobbies:
+    <input type="text" name=" Hobbies" size="30"maxlength="30" placeholder=" Mention your Hobbies"><br><br>
+
+
+    10th Percentage:
+    <input type="number" name=" 10th Percentage" size="30"maxlength="30" placeholder=" 10th Percentage"><br><br>
+
+    12th Percentage:
+    <input type="number" name=" 12th Percentage" size="30"maxlength="30" placeholder=" 12th Percentage"><br><br>
+
+    CET Percentile:
+    <input type="number" name=" CET Percentile" size="30"maxlength="30" placeholder=" CET Percentile"><br><br>
+
+    <label for="Year of Studying">Year of Studying:</label>
+    <select  id="Year of Studying">
+        <option value="FE">FE</option>
+        <option value="SE">SE</option>
+        <option value="TE">TE</option>
+        <option value="BE">BE</option>
+    </select>
+    <br><br>
+
+
+
+    <label for="Department">Department:</label>
+    <select  id="Department">
+        <option value="Computer">Computer</option>
+        <option value="Information Technology">Information Technology</option>
+        <option value="Artifical intelligence and Data Science">Artifical intelligence and Data Science</option>
+        <option value="Artifical intelligence and Machine Learning">"Artifical intelligence and Machine Learning</option>
+        <option value="Electronics and Telecommunication ">Electronics and Telecommunication</option>
+        <option value="Mechanical ">Mechanical</option>
+        <option value="Electronics ">Electronics </option>
+    </select>
+    <br><br>
+
+
+
+    <label for="Shift">Shift:</label>
+    <select  id="Shift">
+        <option value="First">First</option>
+        <option value="Second">Second</option>
+    </select>
+    <br><br>
+
+    <label for="Mentor Name">Mentor Name:</label>
+    <select  id="Mentor Name">
+        <option value="Vidya Deshmukh">Vidya Deshmukh</option>
+        <option value="Manjiree Otari">Manjiree Otari</option>
+        <option value="Rucha Alindikar">Rucha Alindikar</option>
+        <option value="Pooja Hande">Pooja Hande</option>
+    s</select>
+    <br><br>
+    
+
+
+    <center><input type="submit" value="submit"</center>
+
+
+</body>
+</html>
